@@ -58,10 +58,10 @@ const AboutPage = () => {
 
       <Canvas colorManagement style={{
         position: 'absolute',
-        width: '200px',
+        width: '400px',
         height: 'calc(100% - 100px)',
         top: '100px',
-        right: '50px'
+        right:0
       }}>
         <ambientLight />
         <spotLight position={[10, 10, 10]} />
